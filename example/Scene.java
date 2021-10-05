@@ -23,9 +23,9 @@ public class Scene {
         Geezer theGeezer = Geezer.getTheGeezer();
 
         SteganographyClassLoader loader = new SteganographyClassLoader(
-                new URL("file:///D:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E5%A4%A7%E4%B8%89%E4%B8%8A/%E9%AB%98%E7%BA%A7JAVA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/task/03/jw03-OraOraOra0ra/example.QuickSorter.png"));
+                new URL("https://github.com/jwork-2021/jw03-OraOraOra0ra/blob/main/example.QuickSorter.png"));
 
-        Class c = loader.loadClass("example.SelectSorter");
+        Class c = loader.loadClass("example.QuickSorter");
 
         Sorter sorter = (Sorter) c.newInstance();
 
